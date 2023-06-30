@@ -1,3 +1,4 @@
+//creating 2 variables
 let a=10;
 const b="10";
 
