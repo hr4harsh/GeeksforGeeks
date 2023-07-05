@@ -12,7 +12,10 @@ $.ajax({
 
   
 
-
+this 
+is 
+a  clone 
+dslkc
   axios.get('URL')
   .then(response => {
     const responseData = response.data; // Access the response data
