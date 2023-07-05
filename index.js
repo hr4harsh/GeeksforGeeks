@@ -1,7 +1,23 @@
-//creating 2 variables
-let a=10;
-const b="10";
+$.ajax({
+    url: 'https://api.example.com/data',
+    method: 'GET',
+    success: function(response) {
+      const parsedData = JSON.parse(response);
+      // Process the parsed data here
+    },
+    error: function(xhr, status, error) {
+      // Handle any errors
+    }
+  });
 
-//differnce between == and ===
+  
 
-console.log(a==b, a===c);
+
+  axios.get('URL')
+  .then(response => {
+    const responseData = response.data; // Access the response data
+    // Process the response data here
+  })
+  .catch(error => {
+    // Handle any errors
+  });
